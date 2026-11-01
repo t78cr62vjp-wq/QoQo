@@ -13,18 +13,7 @@ box-sizing:border-box;
 font-family:Arial,sans-serif;
 }
 
-body{<center>
-
-<img src="logo.png" alt="BUQUSAI Logo" width="250">
-
-<h1>BUQUSAI</h1>
-
-<p>GENERAL CONTRACTING OFFICE</p>
-
-<p>Building Excellence. Delivering Trust.</p>
-
-</center>
-
+body{
 background:#f5f5f5;
 color:#333;
 line-height:1.6;
@@ -33,10 +22,16 @@ line-height:1.6;
 header{
 background:#0d47a1;
 color:white;
-padding:70px 20px;
+padding:60px 20px;
 text-align:center;
 }
-<img src="logo.png" alt="Bu Qusai Logo" style="width:180px;margin-bottom:20px;">
+
+.logo{
+width:220px;
+max-width:90%;
+margin-bottom:20px;
+border-radius:10px;
+}
 
 header h1{
 font-size:42px;
@@ -44,7 +39,18 @@ margin-bottom:10px;
 }
 
 header p{
-font-size:18px;
+font-size:20px;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:14px 28px;
+background:#f39c12;
+color:white;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
 }
 
 section{
@@ -69,14 +75,14 @@ gap:20px;
 background:white;
 padding:25px;
 border-radius:10px;
-box-shadow:0 2px 10px rgba(0,0,0,0.1);
+box-shadow:0 2px 10px rgba(0,0,0,.1);
 }
 
 .contact{
 background:white;
-padding:30px;
+padding:25px;
 border-radius:10px;
-box-shadow:0 2px 10px rgba(0,0,0,0.1);
+box-shadow:0 2px 10px rgba(0,0,0,.1);
 }
 
 footer{
@@ -84,17 +90,17 @@ background:#222;
 color:white;
 text-align:center;
 padding:20px;
-margin-top:40px;
 }
 
-.btn{
+.whatsapp{
 display:inline-block;
-background:#ff9800;
+margin-top:15px;
+padding:12px 20px;
+background:#25D366;
 color:white;
-padding:12px 25px;
-margin-top:20px;
 text-decoration:none;
-border-radius:5px;
+border-radius:6px;
+font-weight:bold;
 }
 </style>
 
@@ -102,23 +108,33 @@ border-radius:5px;
 <body>
 
 <header>
+
+<img src="logo.png" alt="Bu Qusai Logo" class="logo">
+
 <h1>Bu Qusai</h1>
+
 <p>General Contracting Office</p>
+
 <a class="btn" href="#contact">Contact Us</a>
+
 </header>
 
 <section>
 <h2>About Us</h2>
+
 <div class="card">
 <p>
 Bu Qusai General Contracting Office provides construction,
-contracting, renovation and project management services with
-a commitment to quality, reliability and customer satisfaction.
+general contracting, renovation, finishing and project
+management services with high standards of quality,
+professionalism and customer satisfaction.
 </p>
 </div>
+
 </section>
 
 <section>
+
 <h2>Our Services</h2>
 
 <div class="cards">
@@ -130,17 +146,17 @@ a commitment to quality, reliability and customer satisfaction.
 
 <div class="card">
 <h3>Building Construction</h3>
-<p>Complete building execution and supervision.</p>
+<p>Complete construction and supervision services.</p>
 </div>
 
 <div class="card">
 <h3>Renovation & Finishing</h3>
-<p>High quality finishing and renovation services.</p>
+<p>Modern finishing and renovation solutions.</p>
 </div>
 
 <div class="card">
 <h3>Project Management</h3>
-<p>Professional planning and project supervision.</p>
+<p>Planning, supervision and project delivery.</p>
 </div>
 
 </div>
@@ -148,24 +164,29 @@ a commitment to quality, reliability and customer satisfaction.
 </section>
 
 <section>
-<h2>Why Choose Us?</h2>
+
+<h2>Why Choose Us</h2>
 
 <div class="cards">
 
 <div class="card">
-<h3>Quality Work</h3>
+<h3>Quality</h3>
+<p>High-quality workmanship.</p>
 </div>
 
 <div class="card">
-<h3>On-Time Delivery</h3>
+<h3>Experience</h3>
+<p>Professional contracting services.</p>
 </div>
 
 <div class="card">
-<h3>Experienced Team</h3>
+<h3>Commitment</h3>
+<p>On-time project delivery.</p>
 </div>
 
 <div class="card">
 <h3>Competitive Pricing</h3>
+<p>Best value for your investment.</p>
 </div>
 
 </div>
@@ -173,12 +194,16 @@ a commitment to quality, reliability and customer satisfaction.
 </section>
 
 <section id="contact">
+
 <h2>Contact Information</h2>
 
 <div class="contact">
 
-<p><strong>Address:</strong><br>
-Ahmed Orabi Street, Building No. 4, Ground Floor,<br>
+<p><strong>Bu Qusai General Contracting Office</strong></p>
+
+<p>
+Ahmed Orabi Street, Building No. 4,<br>
+Ground Floor,<br>
 El Tal El Kebir, Ismailia, Egypt
 </p>
 
@@ -188,7 +213,13 @@ El Tal El Kebir, Ismailia, Egypt
 
 <p><strong>Mobile:</strong> +20 103 313 0036</p>
 
+<a class="whatsapp"
+href="https://wa.me/201033130036">
+WhatsApp
+</a>
+
 </div>
+
 </section>
 
 <footer>
@@ -197,5 +228,4 @@ El Tal El Kebir, Ismailia, Egypt
 
 </body>
 </html>
-
 
